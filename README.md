@@ -37,7 +37,7 @@ These augmentations were applied on *10%* of the training and *20%* of the valid
     ├── Configs               # Configuration files for respective models
     ├── Images                # Screenshots or images needed for better presentation of README.md file
     ├── Models                # Complete implementations of models of the project
-    │   ├── ResNet34.py          # ResNet34 standard model
+    │   ├── ResNet32.py          # ResNet32 standard model
     ├── Training Plots        # Training and validation performance graphs for loss, accuracy, and f1 scores
     ├── Utils                 # Files that include custom functionalities needed for this project
     ├── README.md             # A complete overview of this directory
@@ -47,7 +47,7 @@ These augmentations were applied on *10%* of the training and *20%* of the valid
 
 
 # Model Diagrams
-## 1. ResNet34
+## 1. ResNet32
 
 # Model Summaries
 Go to the colab notebooks in the Colab Notebooks directory for each model to view the detailed model summary.
@@ -66,20 +66,20 @@ F1 Score is defined as the harmonic mean of precision and recall as <img src="ht
 # Quantitatvie Results
 | Model | Accuracy | Precision | Recall | F1 Score (Dice Score) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ResNet34 | **None** | **None** | None | None |
+| ResNet32 | **None** | **None** | None | None |
 
 # Qualitative Results
 Following is the test tissue image with its ground truth segmentation mask that I show the qualitative results of my models on.
 ![Test Image For Qualitative Results](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/test.JPG)
 
-## 1. ResNet34
+## 1. ResNet32
 Not implimented yet.
 
 # Replication Instructions
 Use the colab notebooks in the Colab Notebooks directory for training, testing, and predictions on different models.
 
 # Pretrained Models
-- [ResNet34_basic.model](https://drive.google.com/file/d/notimplimentedyet)
+- [ResNet32_basic.model](https://drive.google.com/file/d/notimplimentedyet)
 
 # Instructions to load a pretrained model
 Either use the colab notebooks in the Colab Notebooks directory for predictions on respective models, or follow the following steps using your console.
@@ -92,7 +92,7 @@ Either use the colab notebooks in the Colab Notebooks directory for predictions 
 
 ```python
 # import all the models and their respective configuration files
-from Texture_Classification_in_Colorectal_Cancer_Histology.Models import ResNet34
+from Texture_Classification_in_Colorectal_Cancer_Histology.Models import ResNet32
 from Texture_Classification_in_Colorectal_Cancer_Histology.Configs import Configs
 ```
 
@@ -109,7 +109,7 @@ model.summary()
 ## 3. Load the respective pretrained-model weights
 
 ```python
-model.load_weights("ResNet34_basic.model")
+model.load_weights("ResNet32_basic.model")
 ```
 
 ## 4. Make prediction for a sample on the network

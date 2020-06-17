@@ -71,3 +71,23 @@ def plot_training_f1_scores(H, configurations):
     plt.legend()
     plt.savefig("/content/drive/My Drive/tccch_resnet32_f1_score_plot.png")
     plt.show()
+
+def display_sample_correct_predictions(X_test, Y_test, predictions, labels)
+    X_sample_correct = X_test[Y_test == predictions]
+    Y_sample_correct = Y_test[Y_test == predictions]
+    predictions_sample_correct = predictions[Y_test == predictions]
+    for i in range(5):
+        print ("True class: {}\nPredicted class: {}.".format(labels[Y_sample_correct[i]],
+                                        labels[predictions_sample_correct[i]]))
+        display(X_sample_correct[i])
+        print ()
+
+def display_sample_incorrect_predictions(X_test, Y_test, predictions, labels)
+    X_sample_incorrect = X_test[Y_test != predictions]
+    Y_sample_incorrect = Y_test[Y_test != predictions]
+    predictions_sample_incorrect = predictions[Y_test != predictions]
+    for i in range(5):
+        print ("True class: {}\nPredicted class: {}.".format(labels[Y_sample_incorrect[i]],
+                                                            labels[predictions_sample_incorrect[i]]))
+        display(X_sample_incorrect[i])
+        print ()

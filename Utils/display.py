@@ -14,8 +14,8 @@ def display(image): # Show image
     plt.imshow(image)
     plt.axis('off')
     plt.show()
-
-def display_samples(images, labels, classes):
+    
+def visualize_samples(images, labels, classes):
     # Visualize some examples from the dataset.
     num_classes = len(classes)
     samples_per_class = 3
@@ -70,19 +70,4 @@ def plot_training_f1_scores(H, configurations):
     plt.ylabel("Accuracy")
     plt.legend()
     plt.savefig("/content/drive/My Drive/tccch_resnet32_f1_score_plot.png")
-    plt.show()
-    
-def visualize_samples(images, classes):
-    # Visualize some examples from the dataset.
-    num_classes = len(classes)
-    samples_per_class = 3
-    for y, cls in enumerate(classes):
-        idxs = np.flatnonzero(labels == cls)
-        idxs = np.random.choice(idxs, samples_per_class, replace=False)
-        for i, idx in enumerate(idxs):
-            plt_idx = i * num_classes + y + 1
-            plt.subplot(samples_per_class, num_classes, plt_idx)
-            plt.imshow(images[idx])
-            plt.axis('off')
-            if i == 0: plt.title(cls)
     plt.show()

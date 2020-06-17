@@ -8,8 +8,8 @@ This data set represents a collection of textures in histological images of huma
 
 Download: [Kather_texture_2016_image_tiles_5000.zip](https://zenodo.org/record/53169/files/Kather_texture_2016_image_tiles_5000.zip?download=1). Google Drive Link to the dataset: [link 2](https://drive.google.com/file/d/1auURSHx5iolWqoaD6UTnRyen-B_E0CTK/view?usp=sharing).
 
-Following is a sample training Tissue image with its correcsponding ground truth segmentation mask.
-![Train0](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/Train0.JPG)
+Following are some sample training Tissue images with their correcsponding class labels.
+![samples](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/samples.JPG)
 
 The dataset contains *5000* images.
 

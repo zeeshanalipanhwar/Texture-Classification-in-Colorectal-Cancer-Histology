@@ -15,9 +15,8 @@ def display(image): # Show image
     plt.axis('off')
     plt.show()
 
-def display_samples(images, labels):
+def display_samples(images, labels, classes):
     # Visualize some examples from the dataset.
-    classes = labels
     num_classes = len(classes)
     samples_per_class = 3
     for y, cls in enumerate(classes):

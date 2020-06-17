@@ -88,14 +88,14 @@ Either use the colab notebooks in the Colab Notebooks directory for predictions 
 ## 1. Clone this repository to your current directory
 
     git clone https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology
-    mv Texture-Classification-in-Colorectal-Cancer-Histology Texture_Classification_in_Colorectal_Cancer_Histology
+    mv Texture-Classification-in-Colorectal-Cancer-Histology TCCCH
 
 ## 2. Create a model
 
 ```python
 # import all the models and their respective configuration files
-from Texture_Classification_in_Colorectal_Cancer_Histology.Models import ResNet32
-from Texture_Classification_in_Colorectal_Cancer_Histology.Configs import Configs
+from TCCCH.Models import ResNet32
+from TCCCH.Configs import Configs
 ```
 
 ```python
@@ -117,7 +117,7 @@ model.load_weights("ResNet32_basic.model")
 ## 4. Make prediction for a sample on the network
 
 ```python
-from Texture_Classification_in_Colorectal_Cancer_Histology.Utils import display
+from TCCCH.Utils import display
 import numpy as np
 import cv2
 

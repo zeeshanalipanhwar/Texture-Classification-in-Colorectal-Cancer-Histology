@@ -1,9 +1,6 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/LICENSE)
 
-<embed width=200 height=200
-    src="https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/Samples/01_TUMOR/1A11_CRC-Prim-HE-07_022.tif_Row_601_Col_151.tif"
-    type="image/tiff"
-    negative=yes>
+![image](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/Samples/01_TUMOR/1A11_CRC-Prim-HE-07_022.tif_Row_601_Col_151.tif)
 
 # Texture Classification in Colorectal Cancer Histology Images
 Classification of textures in colorectal cancer histology images.

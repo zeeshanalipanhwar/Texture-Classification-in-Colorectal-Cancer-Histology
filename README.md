@@ -19,10 +19,15 @@ The dataset contains *5000* images.
 The data is split into training, validation and testing sets with *60:20:20* ratio having 3k:1k:1k images for each set respectively.
 
 # Data Augmentation
-Following three augmentations are applied on the training and validation images and their correcsponding ground truth segmentation masks using a custom data augmenter:
-1. Rotations of angles *90*, *180*, *270* degrees.
-2. Horizontal flips
-3. Vertical flips
+Different affine transformations were applied to the images such as follows:
+- Rotations within the range (-30, 30) in degrees.
+- Horizontal shifts up to 10 percent.
+- Vertical shifts up to 10 percent.
+- Image shears up to 20,percent.
+- Random horizontal and vertical flips
+- Zoom in and out up to 20 percent.
+
+The fill mode that was followed was "nearest" which means in cases of shifts and shears the image empty pixels were filled with their corresponding nearest pixels.
 
 These augmentations were applied on *10%* of the training and *20%* of the validation data.
 

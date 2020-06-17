@@ -1,5 +1,60 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/LICENSE)
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-mk6l{background-color:#000000;border-color:#000000;color:#ffffff;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-mk6l">TUMOR</th>
+    <th class="tg-mk6l"></th>
+    <th class="tg-mk6l"></th>
+    <th class="tg-mk6l"></th>
+    <th class="tg-mk6l"></th>
+    <th class="tg-mk6l"></th>
+    <th class="tg-mk6l"></th>
+    <th class="tg-mk6l"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-mk6l"><img src="https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/Samples/01_TUMOR/1A11_CRC-Prim-HE-07_022.tif_Row_601_Col_151.tif" alt="Image" width="55" height="16"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+  </tr>
+  <tr>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+  </tr>
+  <tr>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"></td>
+  </tr>
+</tbody>
+</table>
+
 # Texture Classification in Colorectal Cancer Histology Images
 Classification of textures in colorectal cancer histology images.
 

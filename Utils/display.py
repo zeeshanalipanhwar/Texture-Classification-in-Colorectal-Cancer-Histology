@@ -30,3 +30,45 @@ def display_samples(images, labels):
             plt.axis('off')
             if i == 0: plt.title(cls)
     plt.show()
+
+def plot_training_losses(H, configurations):
+    # plot the training and validation losses
+    N = np.arange(0, configurations.EPOCHS)
+    plt.style.use("ggplot")
+    plt.figure()
+    plt.plot(N, H.history["loss"], label="Training")
+    plt.plot(N, H.history["val_loss"], label="Validation")
+    plt.title("Loss")
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss")
+    plt.legend()
+    plt.savefig("/content/drive/My Drive/tccch_resnet32_loss_plot.png")
+    plt.show()
+
+def plot_training_accuracies(H, configurations):
+    # plot the training and validation accuracies
+    N = np.arange(0, configurations.EPOCHS)
+    plt.style.use("ggplot")
+    plt.figure()
+    plt.plot(N, H.history["accuracy"], label="Training")
+    plt.plot(N, H.history["val_accuracy"], label="Validation")
+    plt.title("Accuracy")
+    plt.xlabel("Epoch")
+    plt.ylabel("Accuracy")
+    plt.legend()
+    plt.savefig("/content/drive/My Drive/tccch_resnet32_accuracy_plot.png")
+    plt.show()
+
+def plot_training_f1_scores(H, configurations):
+    # plot the training and validation f1_scores
+    N = np.arange(0, configurations.EPOCHS)
+    plt.style.use("ggplot")
+    plt.figure()
+    plt.plot(N, H.history["f1_score"], label="Training")
+    plt.plot(N, H.history["val_f1_score"], label="Validation")
+    plt.title("Accuracy")
+    plt.xlabel("Epoch")
+    plt.ylabel("Accuracy")
+    plt.legend()
+    plt.savefig("/content/drive/My Drive/tccch_resnet32_f1_score_plot.png")
+    plt.show()    

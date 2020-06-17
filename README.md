@@ -24,7 +24,7 @@
 <tbody>
   <tr>
     <td class="tg-mk6l"><img src="https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/Samples/01_TUMOR/1A11_CRC-Prim-HE-07_022.tif_Row_601_Col_151.tif" alt="Image" width="55" height="16"></td>
-    <td class="tg-mk6l"></td>
+    <td class="tg-mk6l"><embed width=200 height=200 src="https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/Samples/01_TUMOR/1A11_CRC-Prim-HE-07_022.tif_Row_601_Col_151.tif" type="image/tiff" negative=yes></td>
     <td class="tg-mk6l"></td>
     <td class="tg-mk6l"></td>
     <td class="tg-mk6l"></td>

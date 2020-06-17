@@ -70,7 +70,7 @@ F1 Score is defined as the harmonic mean of precision and recall as <img src="ht
 
 # Qualitative Results
 Following is the test tissue image with its ground truth segmentation mask that I show the qualitative results of my models on.
-![Test Image For Qualitative Results](https://github.com/zeeshanalipnhwr/Semantic-Segmentation-Keras/blob/master/Images/Test_Image_For_Qualitative_Results.JPG)
+![Test Image For Qualitative Results](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/test.JPG)
 
 ## 1. ResNet34
 Not implimented yet.

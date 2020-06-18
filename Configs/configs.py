@@ -22,3 +22,21 @@ class Configs:
         self.LOSS = "sparse_categorical_crossentropy"
         self.OPTIMIZER = "adam"
         self.METRICS = ["accuracy"]
+
+    def display(self):
+        print ("Name of the dataset: {}.".format(self.DATASETNAME)
+        
+        print ("Google drive link to the dataset: {}.".format(self.DATALINK)
+
+        print ("Batch size for training and testing of a model: {}.".format(self.BATCHSIZE)
+        
+        print ("Number of epochs for training of a model: {}.".format(self.EPOCHS)
+        
+        print ("Number of classes in the dataset: {}.".format(self.NUMCLASSES)
+        
+        print ("Class names in the dataset: {}.".format(self.CLASSES)
+
+        print ("Model training setting")
+        print ("loss: {}.".format(self.LOSS)
+        print ("optimizer: {}.".format(self.OPTIMIZER)
+        print ("metrics: {}.".format(self.METRICS)

@@ -65,7 +65,7 @@ def plot_training_f1_scores(H, configurations):
     plt.figure()
     plt.plot(N, H.history["f1_score"], label="Training")
     plt.plot(N, H.history["val_f1_score"], label="Validation")
-    plt.title("Accuracy")
+    plt.title("F1-Score")
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.legend()

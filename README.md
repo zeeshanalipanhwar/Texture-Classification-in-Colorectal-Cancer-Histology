@@ -1,6 +1,6 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/LICENSE)
 
-# Texture Classification in Colorectal Cancer Histology Images
+# Texture Classification in Colorectal Cancer Histology
 Classification of textures in colorectal cancer histology images.
 
 # Dataset

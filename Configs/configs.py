@@ -24,19 +24,16 @@ class Configs:
         self.METRICS = ["accuracy"]
 
     def display(self):
-        print ("Name of the dataset: {}.".format(self.DATASETNAME)
+        print ("Name of the dataset: {}.".format(self.DATASETNAME))
         
-        print ("Google drive link to the dataset: {}.".format(self.DATALINK)
+        print ("Google drive link to the dataset: {}.".format(self.DATALINK))
 
-        print ("Batch size for training and testing of a model: {}.".format(self.BATCHSIZE)
+        print ("Batch size for training and testing of a model: {}.".format(self.BATCHSIZE))
         
-        print ("Number of epochs for training of a model: {}.".format(self.EPOCHS)
+        print ("Number of epochs for training of a model: {}.".format(self.EPOCHS))
         
-        print ("Number of classes in the dataset: {}.".format(self.NUMCLASSES)
+        print ("Number of classes in the dataset: {}.".format(self.NUMCLASSES))
         
-        print ("Class names in the dataset: {}.".format(self.CLASSES)
+        print ("Class names in the dataset: {}.".format(self.CLASSES))
 
-        print ("Model training setting")
-        print ("loss: {}.".format(self.LOSS)
-        print ("optimizer: {}.".format(self.OPTIMIZER)
-        print ("metrics: {}.".format(self.METRICS)
+        print ("Model training setting:: loss: {}, optimizer: {}, metrics: {}.".format(self.LOSS, self.OPTIMIZER, self.METRICS))

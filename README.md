@@ -16,7 +16,7 @@ The dataset contains *5000* images.
 **Tissue images shapes**: *150x150x3*
 
 # Data Spliting
-The data is split into training, validation and testing sets with *60:20:20* ratio having 3k:1k:1k images for each set respectively.
+The data is split into 60% training, 20% validation and 20% testing sets containing 3k, 1k, and 1k images for each set respectively.
 
 # Data Augmentation
 Different affine transformations were applied to the images such as follows:

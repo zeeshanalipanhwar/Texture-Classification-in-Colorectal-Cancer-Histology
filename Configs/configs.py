@@ -10,7 +10,7 @@ class Configs:
         self.BATCHSIZE = 32
         
         # Number of epochs for training of a model
-        self.EPOCHS = 1
+        self.EPOCHS = 100
         
         # Number of classes in the dataset
         self.NUMCLASSES = 8

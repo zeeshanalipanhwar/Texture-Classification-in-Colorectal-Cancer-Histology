@@ -21,17 +21,8 @@ Kather, J. N., Zöllner, F. G., Bianconi, F., Melchers, S. M., Schad, L. R., Gai
 The data is split into 60% training, 20% validation and 20% testing sets containing 3k, 1k, and 1k images for each set respectively.
 
 # Data Augmentation
-Different affine transformations were applied to the images such as follows:
-- Rotations within the range (-30, 30) in degrees.
-- Horizontal shifts up to 10 percent.
-- Vertical shifts up to 10 percent.
-- Image shears up to 20,percent.
+Following affine transformations were applied to the images:
 - Random horizontal and vertical flips
-- Zoom in and out up to 20 percent.
-
-The fill mode that was followed was "nearest" which means in cases of shifts and shears the image empty pixels were filled with their corresponding nearest pixels.
-
-These augmentations were applied on *10%* of the training and *20%* of the validation data.
 
 # Requirements
 - python version 3.x
@@ -70,7 +61,7 @@ F1 Score is defined as the harmonic mean of precision and recall as <img src="ht
 # Quantitatvie Results
 | Model | Accuracy | Precision | Recall | F1 Score |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ResNet32 | **None** | **None** | None | None |
+| ResNet32 | 0.84 | 0.87 | 0.84 | 0.84 |
 
 # Qualitative Results
 Following is the test tissue image with its ground truth segmentation mask that I show the qualitative results of my models on.
@@ -83,7 +74,7 @@ Not implimented yet.
 Use the colab notebooks in the Colab Notebooks directory for training, testing, and predictions on different models.
 
 # Pretrained Models
-- [ResNet32_basic.model](https://drive.google.com/file/d/notimplimentedyet)
+- [ResNet32_basic.model](https://drive.google.com/file/d/tccch_resnet32.model)
 
 # Instructions to load a pretrained model
 Either use the colab notebooks in the Colab Notebooks directory for predictions on respective models, or follow the following steps using your console.

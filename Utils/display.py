@@ -67,7 +67,7 @@ def plot_training_f1_scores(H, configurations, model_name=None):
     plt.plot(N, H.history["val_f1_score"], label="Validation")
     plt.title("F1-Score")
     plt.xlabel("Epoch")
-    plt.ylabel("Accuracy")
+    plt.ylabel("F1-Score")
     plt.legend()
     if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_f1_score_plot.png".format(model_name))
     plt.show()

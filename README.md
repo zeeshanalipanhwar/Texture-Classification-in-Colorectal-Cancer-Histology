@@ -35,7 +35,7 @@ Following affine transformations were applied to the images:
     ├── Configs               # Configuration files for respective models
     ├── Images                # Screenshots or images needed for better presentation of README.md file
     ├── Models                # Complete implementations of models of the project
-    │   ├── ResNet32.py          # ResNet32 standard model
+    │   ├── ResNet34.py          # ResNet34 standard model
     ├── Training Plots        # Training and validation performance graphs for loss, accuracy, and f1 scores
     ├── Utils                 # Files that include custom functionalities needed for this project
     ├── README.md             # A complete overview of this directory
@@ -45,7 +45,7 @@ Following affine transformations were applied to the images:
 
 
 # Model Diagrams
-## 1. ResNet32
+## 1. ResNet34
 
 # Model Summaries
 Go to the colab notebooks in the Colab Notebooks directory for each model to view the detailed model summary.
@@ -61,20 +61,20 @@ F1 Score is defined as the harmonic mean of precision and recall as <img src="ht
 # Quantitatvie Results
 | Model | Accuracy | Precision | Recall | F1 Score |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ResNet32 | 0.84 | 0.87 | 0.84 | 0.84 |
+| ResNet34 | 0.84 | 0.87 | 0.84 | 0.84 |
 
 # Qualitative Results
 Following is the test tissue image with its ground truth segmentation mask that I show the qualitative results of my models on.
 ![Test Image For Qualitative Results](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/test.JPG)
 
-## 1. ResNet32
+## 1. ResNet34
 Not implimented yet.
 
 # Replication Instructions
 Use the colab notebooks in the Colab Notebooks directory for training, testing, and predictions on different models.
 
 # Pretrained Models
-- [ResNet32_basic.model](https://drive.google.com/file/d/tccch_resnet32.model)
+- [ResNet34_basic.model](https://drive.google.com/file/d/tccch_resnet34.model)
 
 # Instructions to load a pretrained model
 Either use the colab notebooks in the Colab Notebooks directory for predictions on respective models, or follow the following steps using your console.
@@ -87,7 +87,7 @@ Either use the colab notebooks in the Colab Notebooks directory for predictions 
 
 ```python
 # import all the models and their respective configuration files
-from TCCCH.Models import ResNet32
+from TCCCH.Models import ResNet34
 from TCCCH.Configs import Configs
 ```
 
@@ -104,7 +104,7 @@ model.summary()
 ## 3. Load the respective pretrained-model weights
 
 ```python
-model.load_weights("ResNet32_basic.model")
+model.load_weights("ResNet34_basic.model")
 ```
 
 ## 4. Make prediction for a sample on the network

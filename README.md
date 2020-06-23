@@ -15,7 +15,7 @@ The dataset contains *5000* images.
 
 **Tissue images shapes**: *150x150x3*
 
-Kather, J. N., Zöllner, F. G., Bianconi, F., Melchers, S. M., Schad, L. R., Gaiser, T., … Weis, C.-A. (2016). Collection of textures in colorectal cancer histology [Data set]. Zenodo. http://doi.org/10.5281/zenodo.53169
+**Reference:** Kather, J. N., Zöllner, F. G., Bianconi, F., Melchers, S. M., Schad, L. R., Gaiser, T., … Weis, C.-A. (2016). Collection of textures in colorectal cancer histology [Data set]. Zenodo. http://doi.org/10.5281/zenodo.53169
 
 # Data Spliting
 The data is split into 60% training, 20% validation and 20% testing sets containing 3k, 1k, and 1k images for each set respectively.

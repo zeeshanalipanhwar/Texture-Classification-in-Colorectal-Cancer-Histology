@@ -55,7 +55,7 @@ def plot_training_accuracies(H, configurations, model_name=None):
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.legend()
-    if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_accuracy_plot.png").format(model_name)
+    if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_accuracy_plot.png".format(model_name))
     plt.show()
 
 def plot_training_f1_scores(H, configurations, model_name=None):
@@ -69,7 +69,7 @@ def plot_training_f1_scores(H, configurations, model_name=None):
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.legend()
-    if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_f1_score_plot.png").format(model_name)
+    if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_f1_score_plot.png".format(model_name))
     plt.show()
 
 def plot_confusion_matrix(Y_test, predictions, labels):

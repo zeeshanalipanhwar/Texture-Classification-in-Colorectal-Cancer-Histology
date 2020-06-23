@@ -72,6 +72,19 @@ def plot_training_f1_scores(H, configurations, model_name=None):
     if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_f1_score_plot.png").format(model_name)
     plt.show()
 
+def plot_confusion_matrix(Y_test, predictions, labels):
+    from sklearn.metrics import confusion_matrix
+    confusion_m = confusion_matrix(Y_test, predictions)
+
+    import seaborn as sns
+    figure = plt.figure(figsize=(8, 8))
+    sns.heatmap(confusion_m, annot=True,cmap=plt.cm.Blues,
+                xticklabels=labels, yticklabels=labels, fmt="d")
+    plt.tight_layout()
+    plt.ylabel('True label')
+    plt.xlabel('Predicted label')
+    plt.show()    
+    
 def display_sample_correct_predictions(X_test, Y_test, predictions, labels):
     X_sample_correct = X_test[Y_test == predictions]
     Y_sample_correct = Y_test[Y_test == predictions]

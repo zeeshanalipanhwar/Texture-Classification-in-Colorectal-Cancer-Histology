@@ -30,7 +30,7 @@ def visualize_samples(images, labels, classes):
             if i == 0: plt.title(cls)
     plt.show()
 
-def plot_training_losses(H, configurations):
+def plot_training_losses(H, configurations, model_name=None):
     # plot the training and validation losses
     N = np.arange(0, configurations.EPOCHS)
     plt.style.use("ggplot")
@@ -41,10 +41,10 @@ def plot_training_losses(H, configurations):
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
     plt.legend()
-    plt.savefig("/content/drive/My Drive/tccch_resnet32_loss_plot.png")
+    if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_loss_plot.png".format(model_name))
     plt.show()
 
-def plot_training_accuracies(H, configurations):
+def plot_training_accuracies(H, configurations, model_name=None):
     # plot the training and validation accuracies
     N = np.arange(0, configurations.EPOCHS)
     plt.style.use("ggplot")
@@ -55,10 +55,10 @@ def plot_training_accuracies(H, configurations):
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.legend()
-    plt.savefig("/content/drive/My Drive/tccch_resnet32_accuracy_plot.png")
+    if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_accuracy_plot.png").format(model_name)
     plt.show()
 
-def plot_training_f1_scores(H, configurations):
+def plot_training_f1_scores(H, configurations, model_name=None):
     # plot the training and validation f1_scores
     N = np.arange(0, configurations.EPOCHS)
     plt.style.use("ggplot")
@@ -69,7 +69,7 @@ def plot_training_f1_scores(H, configurations):
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.legend()
-    plt.savefig("/content/drive/My Drive/tccch_resnet32_f1_score_plot.png")
+    if model_name: plt.savefig("/content/drive/My Drive/tccch_{}_f1_score_plot.png").format(model_name)
     plt.show()
 
 def display_sample_correct_predictions(X_test, Y_test, predictions, labels):

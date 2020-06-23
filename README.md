@@ -75,6 +75,7 @@ Use the colab notebooks in the Colab Notebooks directory for training, testing, 
 
 # Pretrained Models
 - [ResNet34_basic.model](https://drive.google.com/file/d/tccch_resnet34.model)
+- [ResNet34_basic.model](https://drive.google.com/file/d/1yFMnJefgXs0pgjwBaPIRmS5dJtmv0RSR/view?usp=sharing)
 
 # Instructions to load a pretrained model
 Either use the colab notebooks in the Colab Notebooks directory for predictions on respective models, or follow the following steps using your console.

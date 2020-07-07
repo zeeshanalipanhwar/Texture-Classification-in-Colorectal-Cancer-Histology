@@ -6,7 +6,7 @@ from keras.layers import Input
 from keras.models import Sequential
 from keras.models import Model
 
-class ResNet32:
+class ResNet34:
     def __init__(self, input_shape, classes):
         self.input_shape = input_shape
         self.classes = classes

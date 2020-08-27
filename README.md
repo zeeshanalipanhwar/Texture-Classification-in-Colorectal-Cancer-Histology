@@ -38,7 +38,7 @@ Following affine transformations were applied to the images:
     │   └── ResNet34.py          # ResNet34 standard model
     ├── Training Plots        # Training and validation performance graphs for loss, accuracy, and f1 scores
     ├── Utils                 # Files that include custom functionalities needed for this project
-    ├── LICENCE               # MIT licence
+    ├── LICENCE               # MIT license
     └── README.md             # A complete overview of this directory
 
 

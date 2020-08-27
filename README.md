@@ -122,7 +122,7 @@ if print_statements: print ("sample_image shape:", sample_image.shape)
 
 # Make predictions
 display(sample_image)
-display(model.predict(sample_image))
+print ("Predicted class:", np.argmax(model.predict(sample_image), axis=-1))
 ```
 
 ## License

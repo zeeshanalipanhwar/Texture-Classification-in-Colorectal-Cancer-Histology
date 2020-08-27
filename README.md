@@ -35,7 +35,7 @@ Following affine transformations were applied to the images:
     ├── Configs               # Configuration files for respective models
     ├── Images                # Screenshots or images needed for better presentation of README.md file
     ├── Models                # Complete implementations of models of the project
-    │   ├── ResNet34.py          # ResNet34 standard model
+    │   └── ResNet34.py          # ResNet34 standard model
     ├── Training Plots        # Training and validation performance graphs for loss, accuracy, and f1 scores
     ├── Utils                 # Files that include custom functionalities needed for this project
     ├── LICENCE               # MIT licence

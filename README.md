@@ -44,6 +44,7 @@ Following affine transformations were applied to the images:
 
 # Model Diagrams
 ## 1. ResNet34
+<img src="https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/samples.JPG">
 
 # Model Summaries
 Go to the colab notebooks in the Colab Notebooks directory for each model to view the detailed model summary.

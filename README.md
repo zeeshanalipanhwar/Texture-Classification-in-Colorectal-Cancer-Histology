@@ -31,17 +31,15 @@ Following affine transformations were applied to the images:
 # Project Structure
 
     .
-    ├── Colab Notebooks       # Interactive notebooks containing the steps followed for training, testing, and predictions
+    ├── Colab Notebooks       # Interactive notebooks for training, testing, and predictions on the data
     ├── Configs               # Configuration files for respective models
     ├── Images                # Screenshots or images needed for better presentation of README.md file
     ├── Models                # Complete implementations of models of the project
     │   ├── ResNet34.py          # ResNet34 standard model
     ├── Training Plots        # Training and validation performance graphs for loss, accuracy, and f1 scores
     ├── Utils                 # Files that include custom functionalities needed for this project
-    ├── README.md             # A complete overview of this directory
-    ├── predict.py            # Functions to predict a class for an image
-    ├── test.py               # Functions to test a model performance on any test data
-    └── train.py              # Functions to train a model with simple or augmented data
+    ├── LICENCE               # MIT licence
+    └── README.md             # A complete overview of this directory
 
 
 # Model Diagrams
@@ -68,7 +66,7 @@ Following is the test tissue image with its ground truth segmentation mask that 
 ![Test Image For Qualitative Results](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/test.JPG)
 
 ## 1. ResNet34
-Not implimented yet.
+Not implemented yet.
 
 # Replication Instructions
 Use the colab notebooks in the Colab Notebooks directory for training, testing, and predictions on different models.
@@ -120,8 +118,11 @@ print_statements = False # do you need to see the print results blow?
 image_path = "drive/My Drive/sample_tissue_image.tif"
 sample_image = cv2.cvtColor(cv2.imread(image_path), cv2.COLOR_BGR2RGB)
 sample_image = np.array(sample_image, dtype="float") / 255.0
-sample_image = np.expand_dims(sample_image, axis=0)
 if print_statements: print ("sample_image shape:", sample_image.shape)
+
+# Make predictions
+display(sample_image)
+display(model.predict(sample_image))
 ```
 
 ## License

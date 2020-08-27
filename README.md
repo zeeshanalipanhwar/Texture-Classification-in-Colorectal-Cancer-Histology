@@ -63,8 +63,7 @@ F1 Score is defined as the harmonic mean of precision and recall as <img src="ht
 | ResNet34 | 0.84 | 0.87 | 0.84 | 0.84 |
 
 # Qualitative Results
-Following is the test tissue image with its ground truth segmentation mask that I show the qualitative results of my models on.
-![Test Image For Qualitative Results](https://github.com/zeeshanalipnhwr/Texture-Classification-in-Colorectal-Cancer-Histology/blob/master/Images/test.JPG)
+The qualitative results of my models are shown on the test images.
 
 ## 1. ResNet34
 Not implemented yet.

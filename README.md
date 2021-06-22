@@ -69,7 +69,7 @@ The qualitative results of my models are shown on the test images.
 Not implemented yet.
 
 # Replication Instructions
-Use the colab notebooks in the Colab Notebooks directory for training, testing, and predictions on different models.
+Use the colab notebooks in the [Colab Notebooks](https://github.com/zeeshanalipanhwar/Texture-Classification-in-Colorectal-Cancer-Histology/tree/master/Colab%20Notebooks) directory for training, testing, and predictions on different models.
 
 # Pretrained Models
 - [ResNet34_basic.model](https://drive.google.com/file/d/1yFMnJefgXs0pgjwBaPIRmS5dJtmv0RSR/view?usp=sharing)
